@@ -24,38 +24,35 @@
 .content {
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-height:fit-content;
 }
 .top_section {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items:start;
+ flex-wrap: wrap;
 }
 .top_section h1 {
   font-size: 40px;
   font-weight: bold;
-  color: red;
-  text-shadow: 4px 4px green;
+  color:brown;
+   
   text-transform: uppercase;
   
 }
 
-.top_section h1:hover {
-  font-size: 40px;
-  font-weight: bold;
-  color: green;
-  text-shadow: 2px 2px black;
-  text-transform: uppercase;
-  
-}
+
 
 
 
 .top_section h4 {
   font-size: 30px;
   text-align: end;
-  color: red;
-  text-shadow: 2px 2px orange;
+  color:brown;
+ 
 }
 
 
@@ -63,6 +60,7 @@
 .image_container {
   border-radius: 20%;
   overflow: hidden;
+  
 
 }
 
@@ -72,7 +70,8 @@
   overflow: hidden;
   filter: brightness(140%);
             filter: contrast(140%);
-            filter: drop-shadow(10px 10px 10px orange);
+            filter: drop-shadow(2px 2px 2px black);
+            transform: scale(1.1);
 
 }
 
@@ -81,6 +80,7 @@
 img {
   width: 300px;
   height: 320px;
+  
 }
 .about_section {
   margin-top: 50px;
@@ -89,17 +89,11 @@ img {
   font-size: 70px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: blue;
-  text-shadow: 6px 6px  skyblue;
+  color: brown;
+  
 }
 
-.about_section h2:hover {
-  font-size: 70px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  color: yellow;
-  text-shadow: 6px 6px  green;
-}
+
 
 
 
@@ -122,10 +116,11 @@ img {
   margin-bottom: 15px;
 }
 
-.footer {
-  margin: 50px 0;
+footer {
+  margin: 20px 0;
+  
 }
-.footer p {
+footer p {
   text-align: end;
 }
 
@@ -197,7 +192,7 @@ img {
           <p>
             Read more about Shubhdeep Singh Sidhu<b>
             <a href="https://en.wikipedia.org/wiki/Sidhu_Moose_Wala"></b>
-              <h3>Life journey</h3></p></a>
+              <b> Journey</b></a>
             
           </p>
         </footer>
