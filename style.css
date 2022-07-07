@@ -8,6 +8,8 @@
   background-color:antiquewhite;
   min-height: 100px;
   border: 10px solid #1d1e4c;
+   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .content {
